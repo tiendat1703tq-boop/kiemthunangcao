@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testj4.DienMayXanhLoginTest">
+        <methods>
+          <include name="TC01_ValidPhone"/>
+          <include name="tearDown"/>
+          <include name="TC04_EmptyPhone"/>
+          <include name="TC03_PhoneWithLetters"/>
+          <include name="TC02_InvalidPhone"/>
+          <include name="setUp"/>
+          <include name="TC05_SpecialCharacters"/>
+        </methods>
+      </class> <!-- testj4.DienMayXanhLoginTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
